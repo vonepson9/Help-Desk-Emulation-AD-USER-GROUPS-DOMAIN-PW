@@ -1,35 +1,39 @@
 # Help-Desk-Emulation-AD-USER-GROUPS-DOMAIN-PW
 This lab showcases setting up Active Directory on a Windows Server virtual machine using AWS EC2. Created a domain, added users, organized groups, and practiced resetting passwords to simulate a real-world directory environment
-# 🔐 Active Directory Lab on AWS EC2
+# 🛠️ Active Directory + ServiceNow Lab (AWS EC2)
 
-> **Hands-on Identity & Access Management Lab**  
-> Simulated enterprise-level user management using a Windows Server virtual machine hosted on AWS EC2 ☁️🖥️
-
----
-
-## 🧠 Project Overview
-
-This lab showcases the setup and configuration of **Active Directory** in a cloud-hosted Windows Server VM via **AWS EC2**. The goal was to simulate real-world scenarios around identity management and group policies.
-
-### 🛠️ What I Did:
-- ✅ Deployed a **Windows Server 2019** EC2 instance on AWS
-- 🏗️ Installed **Active Directory Domain Services (AD DS)**
-- 🌐 Created a custom **domain**
-- 👤 Added users and assigned them to **organizational groups**
-- 🔁 Practiced **resetting passwords** and managing access
-- 🔒 Simulated basic **access control** in an enterprise environment
+> **Simulating real-world helpdesk operations with AD DS on Windows Server 2019**  
+> Hosted in the cloud ☁️ | Powered by AWS 💪 | Documented with style 😎
 
 ---
 
-## 📊 AD Setup Flow (Mermaid Diagram)
+## 📦 Project Overview
+
+| 🧩 **Component** | 📋 **Description** |
+|------------------|--------------------|
+| 💻 **Platform** | AWS (EC2) |
+| 🏁 **OS** | Windows Server 2019 |
+| 🧰 **Services** | Active Directory Domain Services, ServiceNow Developer |
+| 🎯 **Goal** | Simulate daily helpdesk operations in a lab setting |
+
+---
+
+## 🚀 EC2 Instance Setup
+
+1. 🖥️ Launched a **Windows Server 2019** EC2 instance using the AWS Console  
+2. 🔐 Enabled **RDP access** via Security Groups (port `3389`)  
+3. ⚙️ Selected **Role-Based** installation type  
+4. 🧱 Installed **Active Directory Domain Services (AD DS)** via Server Manager  
+5. 🏰 Promoted the instance to a **Domain Controller**  
+6. 🧪 Created a test domain: `corp.local`
+
+---
+
+## 🔁 AD Setup Flow (Mermaid Diagram)
 
 ```mermaid
 graph TD
-    A[Launch EC2 Instance] --> B[Install Windows Server]
+    A[Launch EC2 Instance] --> B[Enable RDP Port 3389]
     B --> C[Install AD DS Role]
     C --> D[Promote to Domain Controller]
-    D --> E[Create Domain]
-    E --> F[Add Users]
-    F --> G[Create Groups]
-    G --> H[Reset Passwords]
-
+    D --> E[Create Test Domain: corp.local]
