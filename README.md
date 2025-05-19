@@ -2,6 +2,8 @@
 This lab showcases setting up Active Directory on a Windows Server virtual machine using AWS EC2. Created a domain, added users, organized groups, and practiced resetting passwords to simulate a real-world directory environment
 # 🧠 Active Directory Helpdesk Lab on VM Ec2 AWS 🚀
 
+_Loom video walkthrough of lab_ https://www.loom.com/share/ed8bf3cadec144938b287bedfa54f0ab?sid=5e67221e-bc8e-423a-bb85-1874cc0767ee
+
 > **Simulating real-world helpdesk ops in a cloud-hosted lab**  
 > 🖥️ Powered by AWS EC2 | 🏰 Built with Active Directory | 🎫 Integrated with ServiceNow
 
