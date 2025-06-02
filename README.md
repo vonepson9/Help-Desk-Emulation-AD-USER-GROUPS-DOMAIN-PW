@@ -1,12 +1,11 @@
 # 🧠 Active Directory Helpdesk Lab on AWS EC2 🚀  
 > Simulating real-world helpdesk ops in a cloud-hosted lab  
-> 🖥️ Powered by AWS EC2 | 🏰 Built with Active Directory | 🎫 Integrated with ServiceNow  
+> 🖥️ Powered by AWS EC2 | 🏰 Built with Active Directory
 
 ![OS](https://img.shields.io/badge/Windows_Server_2019-blue?logo=windows&logoColor=white)
 ![Platform](https://img.shields.io/badge/AWS_EC2-FF9900?logo=amazon-aws&logoColor=white)
 ![Tools](https://img.shields.io/badge/PDQ_Deploy-lightgrey?logo=windows&logoColor=white)
 ![Tools](https://img.shields.io/badge/Active_Directory-003366?logo=microsoft&logoColor=white)
-![Tools](https://img.shields.io/badge/ServiceNow-1f305f?logo=servicenow&logoColor=white)
 
 ---
 
@@ -23,7 +22,7 @@
 |------------------|--------------------|
 | ☁️ **Platform** | AWS (EC2) |
 | 🪟 **OS** | Windows Server 2019 |
-| 🔧 **Services** | Active Directory Domain Services, ServiceNow Developer |
+| 🔧 **Services** | Active Directory Domain Services |
 | 🎯 **Goal** | Simulate daily helpdesk operations in a lab setting |
 
 ---
