@@ -2,7 +2,8 @@
 > Simulating real-world helpdesk ops in a cloud-hosted lab  
 > 🖥️ Powered by AWS EC2 | 🏰 Built with Active Directory
 
-![OS](https://img.shields.io/badge/Windows_Server_2019-blue?logo=windows&logoColor=white)
+![OS](https://img.shields.io/badge/Windows_Server_2022-blue?logo=windows&logoColor=white)
+![VM](https://img.shields.io/badge/Windows_10_Pro-blue?logo=windows&logoColor=white)
 ![Platform](https://img.shields.io/badge/AWS_EC2-FF9900?logo=amazon-aws&logoColor=white)
 ![Tools](https://img.shields.io/badge/PDQ_Deploy-lightgrey?logo=windows&logoColor=white)
 ![Tools](https://img.shields.io/badge/Active_Directory-003366?logo=microsoft&logoColor=white)
@@ -21,7 +22,7 @@
 | 🧩 **Component** | 📋 **Description** |
 |------------------|--------------------|
 | ☁️ **Platform** | AWS (EC2) |
-| 🪟 **OS** | Windows Server 2019 |
+| 🪟 **OS** | Windows Server 2022 (DC), Windows 10 Pro (VM) |
 | 🔧 **Services** | Active Directory Domain Services |
 | 🎯 **Goal** | Simulate daily helpdesk operations in a lab setting |
 
@@ -29,7 +30,7 @@
 
 ## ⚙️ EC2 Instance Setup
 
-1. 🚀 Launched a **Windows Server 2019 EC2 instance** via AWS Console  
+1. 🚀 Launched a **Windows Server 2022 EC2 instance** via AWS Console  
 2. 🔐 Enabled **RDP access** through security groups (port `3389`)  
 3. 🛠️ Chose **Role-Based** installation type  
 4. 📥 Installed the **Active Directory Domain Services (AD DS)** role  
@@ -72,7 +73,7 @@
 
 ## 🧠 Expanded Lab Features | Desktop Join, Shared Drives & PDQ Deploy
 
-- 🖥️ Added a **Windows 10 desktop VM** to the `corp.local` domain to simulate real-world workstation integration  
+- 🖥️ Added a **Windows 10 Pro VM** to the `corp.local` domain to simulate real-world workstation integration  
 - 📁 Mapped **network drives** and configured **shared folders** for seamless domain-wide file access  
 - 🚀 Deployed software to multiple machines using **PDQ Deploy**  
 - 🛡️ Showcased centralized IT management and automation best practices  
@@ -94,3 +95,4 @@ graph TD
     I --> J[Add Desktop to Domain]
     J --> K[Map Shared Network Drives]
     K --> L[Deploy Software with PDQ]
+
