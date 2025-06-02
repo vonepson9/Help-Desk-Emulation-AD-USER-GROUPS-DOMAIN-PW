@@ -1,12 +1,19 @@
-# Emulation-AD-USER-GROUPS-DOMAIN-PW
-This lab showcases setting up Active Directory on a Windows Server virtual machine using AWS EC2. Created a domain, added users, organized groups, and practiced resetting passwords to simulate a real-world directory environment
+# 🧠 Active Directory Helpdesk Lab on AWS EC2 🚀  
+> Simulating real-world helpdesk ops in a cloud-hosted lab  
+> 🖥️ Powered by AWS EC2 | 🏰 Built with Active Directory | 🎫 Integrated with ServiceNow  
 
-# 🧠 Active Directory Helpdesk Lab on VM Ec2 AWS 🚀
+![OS](https://img.shields.io/badge/Windows_Server_2019-blue?logo=windows&logoColor=white)
+![Platform](https://img.shields.io/badge/AWS_EC2-FF9900?logo=amazon-aws&logoColor=white)
+![Tools](https://img.shields.io/badge/PDQ_Deploy-lightgrey?logo=windows&logoColor=white)
+![Tools](https://img.shields.io/badge/Active_Directory-003366?logo=microsoft&logoColor=white)
+![Tools](https://img.shields.io/badge/ServiceNow-1f305f?logo=servicenow&logoColor=white)
 
-_Loom video walkthrough of lab_ https://www.loom.com/share/ed8bf3cadec144938b287bedfa54f0ab?sid=5e67221e-bc8e-423a-bb85-1874cc0767ee
+---
 
-> **Simulating real-world helpdesk ops in a cloud-hosted lab**  
-> 🖥️ Powered by AWS EC2 | 🏰 Built with Active Directory | 🎫 Integrated with ServiceNow
+## 🎥 Lab Video Walkthroughs
+
+- 🔹 [**Initial AD Setup + Users/Groups Demo (Loom)**](https://www.loom.com/share/ed8bf3cadec144938b287bedfa54f0ab?sid=5e67221e-bc8e-423a-bb85-1874cc0767ee)  
+- 🔹 [**Expanded Features: Desktop Join, Shared Drives, PDQ (Google Drive)**](https://drive.google.com/file/d/1KpRvhTHnqaIia60Vi19vyY7RO-kJQVvL/view?usp=sharing)
 
 ---
 
@@ -66,12 +73,10 @@ _Loom video walkthrough of lab_ https://www.loom.com/share/ed8bf3cadec144938b287
 
 ## 🧠 Expanded Lab Features | Desktop Join, Shared Drives & PDQ Deploy
 
-_Video walk-through_ https://drive.google.com/file/d/1KpRvhTHnqaIia60Vi19vyY7RO-kJQVvL/view?usp=sharing 
-
-- 🖥️ Added a Windows 10 desktop VM to the `corp.local` domain to simulate real-world workstation integration  
-- 📁 Mapped network drives and configured shared folders for file access across the domain  
-- 🚀 Used **PDQ Deploy** for automated software deployments across domain-joined machines  
-- 💼 Demonstrates central management, scalability, and modern IT workflows  
+- 🖥️ Added a **Windows 10 desktop VM** to the `corp.local` domain to simulate real-world workstation integration  
+- 📁 Mapped **network drives** and configured **shared folders** for seamless domain-wide file access  
+- 🚀 Deployed software to multiple machines using **PDQ Deploy**  
+- 🛡️ Showcased centralized IT management and automation best practices  
 
 ---
 
