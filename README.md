@@ -1,5 +1,6 @@
 # Emulation-AD-USER-GROUPS-DOMAIN-PW
 This lab showcases setting up Active Directory on a Windows Server virtual machine using AWS EC2. Created a domain, added users, organized groups, and practiced resetting passwords to simulate a real-world directory environment
+
 # 🧠 Active Directory Helpdesk Lab on VM Ec2 AWS 🚀
 
 _Loom video walkthrough of lab_ https://www.loom.com/share/ed8bf3cadec144938b287bedfa54f0ab?sid=5e67221e-bc8e-423a-bb85-1874cc0767ee
@@ -63,6 +64,17 @@ _Loom video walkthrough of lab_ https://www.loom.com/share/ed8bf3cadec144938b287
 
 ---
 
+## 🧠 Expanded Lab Features | Desktop Join, Shared Drives & PDQ Deploy
+
+_Video walk-through_ https://drive.google.com/file/d/1KpRvhTHnqaIia60Vi19vyY7RO-kJQVvL/view?usp=sharing 
+
+- 🖥️ Added a Windows 10 desktop VM to the `corp.local` domain to simulate real-world workstation integration  
+- 📁 Mapped network drives and configured shared folders for file access across the domain  
+- 🚀 Used **PDQ Deploy** for automated software deployments across domain-joined machines  
+- 💼 Demonstrates central management, scalability, and modern IT workflows  
+
+---
+
 ## 🔁 Lab Flow Diagram (Mermaid)
 
 ```mermaid
@@ -75,3 +87,6 @@ graph TD
     F --> G[Create Groups]
     G --> H[Reset User Passwords]
     H --> I[Add Users to Groups]
+    I --> J[Add Desktop to Domain]
+    J --> K[Map Shared Network Drives]
+    K --> L[Deploy Software with PDQ]
