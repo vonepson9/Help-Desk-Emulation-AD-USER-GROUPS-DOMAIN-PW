@@ -1,6 +1,6 @@
 #  Active Directory Helpdesk Lab on AWS EC2  
 > Simulating real-world helpdesk ops in a cloud-hosted lab  
-> 🖥 Powered by AWS EC2 |  Built with Active Directory
+>  Powered by AWS EC2 |  Built with Active Directory
 
 ![OS](https://img.shields.io/badge/Windows_Server_2022-blue?logo=windows&logoColor=white)
 ![VM](https://img.shields.io/badge/Windows_10_Pro-blue?logo=windows&logoColor=white)
