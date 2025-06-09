@@ -19,7 +19,7 @@
 
 ##  Project Overview
 
-|  **Component** | 📋 **Description** |
+|  **Component** |  **Description** |
 |------------------|--------------------|
 |  **Platform** | AWS (EC2) |
 |  **OS** | Windows Server 2022 (DC), Windows 10 Pro (VM) |
